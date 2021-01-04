@@ -1,4 +1,4 @@
-function onLoad() {
+function genExcusa() {
 
 
     let who = ['the dog', 'my granma', 'his turtle', 'my bird'];
@@ -15,4 +15,4 @@ function onLoad() {
 
     return(`${who[whoLength]} ${what[whatLength]} ${when[whenLength]}`);
 }
-document.querySelector('#excusa').innerHTML = onLoad();
+document.querySelector('#excusa').innerHTML = genExcusa();
